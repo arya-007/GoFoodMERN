@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import facebook from '../facebook.svg';
 import insta from '../insta.svg';
 import yt from '../yt.svg';
-
+import mail from '../mail.svg'
 
 export default function Footer() {
   return (
@@ -23,6 +23,10 @@ export default function Footer() {
           <div className="col-12 col-md-6">
             <p className="text-white ms-3">
               © 2024 GoFood, &nbsp; All rights reserved.
+            <br></br>
+             Aditya Arya, IIT2022143
+             <br></br>
+             <img src={mail} alt="mail"/> &nbsp; <Link to="mailto:iit2022143@iiita.ac.in" id="email-link" className="text-white">iit2022143@iiita.ac.in</Link>
             </p>
           </div>
           <div className="col-12 col-md-6 d-flex">

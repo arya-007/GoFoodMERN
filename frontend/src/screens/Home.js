@@ -44,19 +44,19 @@ export default function Home() {
     </div>
     </div>
     <div className="carousel-item active" >
-      <img src="https://source.unsplash.com/random/900x700/?burger" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
+      <img src="https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
     </div>
     <div className="carousel-item active">
-      <img src="https://source.unsplash.com/random/900x700/?pastry" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
+      <img src="https://images.pexels.com/photos/14731635/pexels-photo-14731635.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
     </div>
     <div className="carousel-item active">
-      <img src="https://source.unsplash.com/random/900x700/?pizza" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
+      <img src="https://images.pexels.com/photos/365459/pexels-photo-365459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
     </div>
     <div className="carousel-item active">
-      <img src="https://source.unsplash.com/random/900x700/?rice" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
+      <img src="https://images.pexels.com/photos/18803174/pexels-photo-18803174/free-photo-of-momos-dumplings-with-sauces.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
     </div>
     <div className="carousel-item active">
-      <img src="https://source.unsplash.com/random/900x700/?barbeque" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
+      <img src="https://images.pexels.com/photos/1482803/pexels-photo-1482803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="d-block w-100" style={{filter:"brightness(30%)"}} alt="..."/>
       {/* https://source.unsplash.com/random/900x700/?pastry */}
     </div>
   </div>
