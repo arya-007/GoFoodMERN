@@ -6,7 +6,7 @@ export default function Signup() {
   const navigate=useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/CreateUser", {
+    const response = await fetch("https://gofood-backend-lu06.onrender.com/api/CreateUser", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -39,7 +39,7 @@ export default function Signup() {
     // console.log(latlong)
     let [lat, long] = latlong
     console.log(lat, long)
-    const response = await fetch("http://localhost:5000/api/getlocation", {
+    const response = await fetch("https://gofood-backend-lu06.onrender.com/api/getlocation", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

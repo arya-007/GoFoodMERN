@@ -15,7 +15,7 @@ export default function MyOrder() {
     let headers = {
         "Content-Type": "application/json",
       }
-   await axios.post("http://localhost:5000/api/myOrderData",body, {headers})
+   await axios.post("https://gofood-backend-lu06.onrender.com/api/myOrderData",body, {headers})
    .then( async (response)=> {
         console.log(response)
         // const resp = response.data.orderData.order_data;
