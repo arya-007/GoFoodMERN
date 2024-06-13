@@ -42,12 +42,12 @@ mongoDB().catch((err) => {
 
 
 app.use(cors({
-  origin: 'http://localhost:3000'
+  origin: 'https://gofood-frontend-96h4.onrender.com'
 }));
 
 // Middleware for CORS
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin", "https://gofood-frontend-96h4.onrender.com");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
