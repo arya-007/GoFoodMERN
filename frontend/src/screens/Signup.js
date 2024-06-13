@@ -80,6 +80,7 @@ export default function Signup() {
           <div className="m-3">
             <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
             <input type="password" className="form-control" id="exampleInputPassword1" name='password' value={credentials.password} onChange={onChange} />
+            <div id="emailHelp" className="form-text" >Password should contains atleast 8 characters.</div>
           </div>
           <div className="m-3">
             <label htmlFor="exampleInputPassword1" className="form-label">Location</label>
