@@ -42,18 +42,11 @@ mongoDB().catch((err) => {
 
 
 app.use(cors({
-  origin: 'https://gofood-frontend-96h4.onrender.com'
+  origin: 'https://gofood-frontend-96h4.onrender.com',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  allowedHeaders: 'Origin, X-Requested-With, Content-Type, Accept',
+  credentials: true
 }));
-
-// Middleware for CORS
-app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://gofood-frontend-96h4.onrender.com");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
 
 app.use(express.json());
 
